@@ -50,7 +50,6 @@ namespace PlatformService.Controller
 
             return CreatedAtRoute(nameof(GetPlatformById), new {Id = platformReadDto.id}, platformReadDto);    // returns http 201 with route
         }
-
         // stopped at 2:16:22
     }
 }
