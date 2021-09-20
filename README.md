@@ -1,5 +1,7 @@
 # Microservices
-Two services. PlatformService & CommandService
+We are creating two services as microservice. PlatformService & CommandService.\
+Both will communicate via REST API & Rabbit MQ.\
+This app is PlatformService. CommandService is located at another repo.
 
 # PlatformServices
 - Function as an "Asset Register"
